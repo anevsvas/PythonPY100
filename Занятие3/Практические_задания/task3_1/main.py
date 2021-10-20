@@ -1,5 +1,8 @@
 def remove_whitespace(str_):
-    ...  # TODO с помощью методов строки join и split очистить строку от лишних пробелов
+    list_words = str_.split()
+    result = " ".join(list_words)
+
+    return result
 
 
 if __name__ == "__main__":
